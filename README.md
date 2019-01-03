@@ -15,5 +15,6 @@ License
 ----
 
 MIT
+
 * [jQuery]: <http://jquery.com>
 * [Bootstrap]: <https://getbootstrap.com>
