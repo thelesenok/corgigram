@@ -1,11 +1,51 @@
 body{
     font-size: 10px;
+    background: rgb(239, 241, 240);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    text-decoration: none;
+} 
+
+.logo-text{
+    background: rgb(239, 241, 240);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 37px;
+    color: rgb(218, 111, 165);
+}
+
+.thumbnail-list {
+    list-style: none;
+    padding: 0;
+}
+
+.thumbnail-item {
+    border: 1px solid rgb(100%, 100%, 100%);
+    border: 1px solid rgba(100%, 100%, 100%, 0.8);
+    display: block;
+}
+
+.thumbnail-item + .thumbnail-item {
+    margin-top: 10px;
+}
+.thumbnail-image {
+    display: block;
+    width: 100%;
 }
 
 .thumbnail-title {
     display: block;
     margin: 0;
     padding: 4px 10px;
-    background: rgb(96, 125, 139);
-    color: rgb(202, 238, 255);
+    background:rgb(75, 88, 91);
+    color: rgb(239, 241, 240);
+    font-size: 18px;
 }
+
+#thumbnail-item-barry {
+    border: 15px solid rgb(100%, 100%, 100%);
+    border: 15px solid rgba(100%, 100%, 100%, 0.8);
+    display: block;
+} 
