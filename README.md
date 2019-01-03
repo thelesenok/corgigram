@@ -4,7 +4,7 @@ corgigram is an corgi photo gallery.
 
 ### Tech
 
-Bookshelf uses a number of open source projects to work properly:
+corgigram uses a number of open source projects to work properly:
 
 * Javasript
 * CSS
