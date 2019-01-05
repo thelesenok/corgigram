@@ -1,5 +1,5 @@
 html, body { 
-   height: 100%;
+
 }
 
 body{
@@ -73,14 +73,11 @@ a{
 .detail-image-container {
     flex: 1 1 auto;
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
 }
 
 .detail-image-frame {
-    /* display: flex;
-    flex: 1 1 auto; */
     text-align: center;
     position: relative;
     transition: transform 333ms;
