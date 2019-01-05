@@ -34,7 +34,7 @@ a{
 
 .thumbnail-list {
     list-style: none;
-    padding: 0;
+    padding: 20px 0;
     white-space: nowrap;
     overflow-x: auto;
     flex: 0 1 auto;
@@ -49,6 +49,11 @@ a{
     border: 1px solid rgba(100%, 100%, 100%, 0.8);
     min-width: 120px;
     max-width: 120px;
+    transition: transform 133ms ease-in-out;
+}
+
+.thumbnail-item:hover {
+    transform: scale(1.2);
 }
 
 .thumbnail-image {
@@ -78,6 +83,12 @@ a{
     flex: 1 1 auto; */
     text-align: center;
     position: relative;
+    transition: transform 333ms;
+}
+
+.tiny-image {
+    transform: scale(0.001);
+    transition: transform 0ms;
 }
 
 .detail-image {
@@ -92,6 +103,19 @@ a{
     font-size: 40px;
 }
 
+.hidden-detail .detail-image-container {
+    display: none;
+}
+
+.hidden-detail .thumbnail-list {
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden-detail .thumbnail-item {
+    max-width: 80%;
+}
+
 @media all and (orientation: portrait) {
     .main-content {
         flex-direction: row;
@@ -102,6 +126,7 @@ a{
         flex-direction: column;
         order: 0;
         margin-left: 20px;
+        padding: 0 35px;
     }
 
     .thumbnail-item {
