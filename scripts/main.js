@@ -31,6 +31,7 @@ function addThumbClickHadler(thumb) {
     thumb.addEventListener('click', function(event) {
         event.preventDefault();
         setDetailsFromThumb(thumb);
+        $('#exampleModalCenter').modal('show');
     })
 }
 
