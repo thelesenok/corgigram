@@ -8,8 +8,8 @@ corgigram uses a number of open source projects to work properly:
 
 * Javasript
 * CSS
-* [jQuery] - duh **(coming up next)**
-* [Bootstrap] - duh **(coming up next)**
+* [jQuery]
+* [Bootstrap]
 
 License
 ----
